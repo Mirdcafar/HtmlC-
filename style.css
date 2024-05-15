@@ -1,0 +1,281 @@
+body{
+    background-color: #f6f6f6;
+    line-height: 1.6;
+}
+
+.image{
+    width: 100%;
+    height: 100%;
+}
+
+.img_box{
+    width: 10em;
+    height: 160px;
+}
+
+.ul_style{
+    list-style: none;
+    padding-left: 0;
+    margin-top: 0;
+}
+
+.ul_style li a{
+    color: #0645ad;
+    text-decoration: none;
+    font-size: 0.80em;
+}
+
+.ul_style li a:hover{
+    text-decoration: dotted;
+}
+
+.container{
+    margin:0 auto;
+    max-width: 1300px;
+    display: flex;
+}
+
+h3 span{
+    color: #54595d;
+    font-size: 0.75em;
+    font-weight: normal;
+}
+
+h3{
+    margin-bottom: 0;
+    background-image: linear-gradient(to right, rgba(200, 204, 209, 0) 0, #c8ccd1 33%, #c8ccd1 66%, rgba(200, 204, 209, 0) 100%);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 100% 1px;
+}
+
+.nav_box{
+    width: 140px;
+}
+
+
+.content{
+    border: 1px solid #a7d7f9;
+    width: 100%;
+    background-color: white;
+    padding: 30px;
+}
+
+.content_box{
+    border: 1px solid silver;
+    border-radius: 5px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/e/e3/Wikipedia_logo_letters_banner.svg);
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    transition: all;
+    margin-bottom: 30px;
+}
+@media only screen and (max-width: 1082px) {
+    .content_box{
+        background-image: none;
+        background-color: #f8f9fa;
+    }
+    .cont_box{
+        padding-left: 20px;
+    }
+
+    .cont{
+        padding-bottom: 0 !important;
+    }
+    .cont p{
+        margin-bottom: 0;
+    }
+}
+
+.cont{
+    background-image: linear-gradient(to right, #f8f9fa 0%, #f8f9fa 70%, rgba(248, 249, 250, 0) 100%);
+    padding: 20px;
+}
+
+.cont h1{
+    font-size: 2em;
+    margin-bottom: 0;
+    font-weight: normal;
+
+}
+
+.cont p{
+    margin-top: 0;
+    font-size: 0.95em;
+}
+
+.content_box span a{
+    text-decoration: none;
+    color: #0645ad;
+}
+
+.content_box p b {
+    color: #0645ad;
+}
+
+
+.content_ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    transition: all;
+}
+
+@media only screen and (max-width: 768px) {
+    .content_ul{
+        display: none;
+    }
+    .content{
+        padding: 0;
+    }
+    .content_box{
+        border: none;
+        background-color: white;
+    }
+
+    .cont{
+        background-image: none;
+
+    }
+    
+}
+
+.li_1{
+    width: 70px;
+    padding: 3px;
+    transition: 0.3s;
+    color: #0645ad;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.li_1:hover{
+    background-color: rgb(233, 236, 243);
+    border-color: transparent;
+    
+}
+
+.li_2{
+    width: 120px;
+    padding: 3px;
+    border: 1px solid silver;
+    background-color: #f8f9fa;
+    transition: 0.3s;
+    color: #0645ad;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.li_2:hover{
+    border: 1px solid #a7d7f9;
+    background-color: white;
+}
+
+.cont_box p{
+    font-size: 0.9em;
+}
+
+.cont_box{
+    padding-right: 10px;
+    transition: all;
+}
+
+.cart{
+    border:1px solid silver;
+    min-height: 200px;
+    max-width: 520px;
+    padding: 10px;
+    border-radius: 2px;
+    margin-bottom: 20px;
+}
+
+.cart h2 p:nth-child(2){
+    font-size: 0.85em;
+    color: #0645ad;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.image_content{
+    width: 100%;
+    height: 5px;
+}
+
+.cart img{
+    width: 175px;
+    float: right;
+    height: 254px;
+}
+
+.li_3{
+    min-width: 100px;
+    padding: 3px;
+    transition: 0.3s;
+    color: #0645ad;
+    font-weight: 700;
+    cursor: pointer;
+}
+.li_3:hover{
+    background-color: rgb(233, 236, 243);
+    border-color: transparent;
+    
+}
+
+.li_4{
+    min-width: 60px;
+    padding: 3px;
+    border: 1px solid silver;
+    background-color: #f8f9fa;
+    transition: 0.3s;
+    color: #0645ad;
+    font-weight: 700;
+    cursor: pointer;
+}
+.li_4:hover{
+    border: 1px solid #a7d7f9;
+    background-color: white;
+}
+
+@media only screen and (max-width: 858px) {
+    .cart img{
+        float: none;
+        
+    }
+}
+
+.content_ul_2{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    transition: all;
+    padding-left: 0;
+}
+
+h2 p{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.flex_list{
+    display: flex;
+    align-items: center;
+}
+
+.flex_list img{
+    width: 60px;
+    height: 70px;
+    padding-right: 20px;
+}
