@@ -1,0 +1,36 @@
+#contextMenu{
+    position: absolute;
+    width: 100px;
+    background-color: gray;
+    box-shadow: 2px 2px 2px lightgray;
+    display: none;
+    z-index: 2;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+}
+#contextMenu ul li{
+    cursor: pointer;
+    padding: 5px;
+}
+#contextMenu ul li:hover{
+    background-color: aqua;
+}
+
+#list{
+    display: flex;
+}
+
+#list div{
+    margin: 20px;
+}
+
+#list div img{
+    width: 100px;
+    height: 100px;
+}
